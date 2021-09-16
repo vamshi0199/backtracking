@@ -758,25 +758,24 @@ and
 with the meanings that should be obvious.
 </p>
 <p>Here is some output from the program:</p>
-<ol reversed ><strong>
-    <li><b> WHITE  WHITE  WHITE  _____  BLACK  BLACK  BLACK</b></li>
-    <li><b>WHITE  WHITE  WHITE  BLACK  _____  BLACK  BLACK</b></li>
-    <li><b> WHITE  WHITE  _____  BLACK  WHITE  BLACK  BLACK</b></li>
-    <li><b> WHITE  _____  WHITE  BLACK  WHITE  BLACK  BLACK</b></li>
-    <li><b>WHITE  BLACK  WHITE  _____  WHITE  BLACK  BLACK</b></li>
-    <li><b> WHITE  BLACK  WHITE  BLACK  WHITE  _____  BLACK</b></li>
-    <li><b>WHITE  BLACK  WHITE  BLACK  WHITE  BLACK  _____</b></li>
-    <li><b> WHITE  BLACK  WHITE  BLACK  _____  BLACK  WHITE</b></li>
-    <li><b> WHITE  BLACK  _____  BLACK  WHITE  BLACK  WHITE</b></li>
-    <li><b>  _____  BLACK  WHITE  BLACK  WHITE  BLACK  WHITE</b></li>
-    <li><b>BLACK  _____  WHITE  BLACK  WHITE  BLACK  WHITE</b></li>
-    <li><b>BLACK  BLACK  WHITE  _____  WHITE  BLACK  WHITE</b></li>
-    <li><b> BLACK  BLACK  WHITE  BLACK  WHITE  _____  WHITE</b></li>
-    <li><b> BLACK  BLACK  WHITE  BLACK  _____  WHITE  WHITE</b></li>
-    <li><b> BLACK  BLACK  _____  BLACK  WHITE  WHITE  WHITE</b></li>
-    <li><b>BLACK  BLACK  BLACK  _____  WHITE  WHITE  WHITE</b></li>
-    </strong>
-</ol>
+<pre style="color: blue;">
+    16.  <strong style="color: black;" >WHITE  WHITE  WHITE  _____  BLACK  BLACK  BLACK</strong>
+    15.  <strong style="color: black;">WHITE  WHITE  WHITE  BLACK  _____  BLACK  BLACK</strong>
+    14.  <strong style="color: black;">WHITE  WHITE  _____  BLACK  WHITE  BLACK  BLACK</strong>
+    13.  <strong style="color: black;">WHITE  _____  WHITE  BLACK  WHITE  BLACK  BLACK</strong>
+    12.  <strong style="color: black;">WHITE  BLACK  WHITE  _____  WHITE  BLACK  BLACK</strong>
+    11.  <strong style="color: black;">WHITE  BLACK  WHITE  BLACK  WHITE  _____  BLACK</strong>
+    10. <strong style="color: black;">WHITE  BLACK  WHITE  BLACK  WHITE  BLACK  _____ </strong>
+     9.  <strong style="color: black;">WHITE  BLACK  WHITE  BLACK  _____  BLACK  WHITE</strong>
+     8.  <strong style="color: black;">WHITE  BLACK  _____  BLACK  WHITE  BLACK  WHITE</strong>
+     7.  <strong style="color: black;">_____  BLACK  WHITE  BLACK  WHITE  BLACK  WHITE</strong>
+     6.  <strong style="color: black;">BLACK  _____  WHITE  BLACK  WHITE  BLACK  WHITE</strong>
+     5.  <strong style="color: black;">BLACK  BLACK  WHITE  _____  WHITE  BLACK  WHITE</strong>
+     4.  <strong style="color: black;">BLACK  BLACK  WHITE  BLACK  WHITE  _____  WHITE</strong>
+     3.  <strong style="color: black;">BLACK  BLACK  WHITE  BLACK  _____  WHITE  WHITE</strong>
+     2.  <strong style="color: black;">BLACK  BLACK  _____  BLACK  WHITE  WHITE  WHITE</strong>
+     1.  <strong style="color: black;">BLACK  BLACK  BLACK  _____  WHITE  WHITE  WHITE</strong>
+    </pre>
 <p>Notice that the solution is given in reverse order: BLACK starts out on the left and WHITE on the right, as in the last line. I've added line numbers to the actual output in order to emphasize this point. Backtracking always produces its results (sequence of choices) in reverse order; it is up to you, the programmer, to reverse the results again to get them in the correct order.</p>
 
 
